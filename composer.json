@@ -1,0 +1,19 @@
+{
+    "name": "khalidahmed/woo-pizapool",
+    "description": "Manage diffrent types customer who came shopping in our store",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+      {
+        "name": "Khalidwebmail",
+        "email": "csewebmail@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Woo\\Pizza\\": "includes/"
+      }
+    }
+  }
